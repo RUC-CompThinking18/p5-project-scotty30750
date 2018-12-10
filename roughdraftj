@@ -1,0 +1,11 @@
+function setup() {
+  createCanvas(600, 600, WEBGL);
+}
+
+function draw() {
+  colorMode(HSB);
+	background(255, 204, 100);
+  rotateY(millis() / 2000);
+  rotateX(millis() / 2000);
+  rotateZ(millis() / 2000);
+  cone(100);
